@@ -187,14 +187,14 @@ export default async function handler(req: any, res: any) {
       kstDateStr,                                               // A: 날짜
       siteUrl,                                                  // B: 경로 (사이트 URL)
       path,                                                     // C: 구분
-      q1,                                                       // D: 질문1
-      q2,                                                       // E: 질문2
-      data.name || '',                                          // F: 이름
-      data.phone || '',                                         // G: 연락처
-      data.birthdate || '',                                     // H: 생년월일
-      gender,                                                   // I: 성별
-      address,                                                  // J: 주소
-      consultTime,                                              // K: 상담가능시간
+      data.name || '',                                          // D: 이름
+      data.phone || '',                                         // E: 연락처
+      data.birthdate || '',                                     // F: 생년월일
+      gender,                                                   // G: 성별
+      address,                                                  // H: 주소
+      consultTime,                                              // I: 상담가능시간
+      q1,                                                       // J: 질문1
+      q2,                                                       // K: 질문2
       data.term_privacy ? '동의' : '미동의',                     // L: 필수
       data.term_marketing ? '동의' : '미동의'                   // M: 선택
     ];
